@@ -1,0 +1,90 @@
+body {
+  font: 300 18px "Helvetica Neue";
+  height: 680px;
+  width: 1020px;
+  margin: 10px 40px 10px 40px;
+  overflow: hidden;
+  position: relative;
+}
+
+a:link, a:visited {
+  color: #777;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #666;
+}
+
+blockquote {
+  margin: 0;
+}
+
+blockquote:before {
+  content: "“";
+  position: absolute;
+  left: -.4em;
+}
+
+blockquote:after {
+  content: "”";
+  position: absolute;
+}
+
+body > ul {
+  margin: 0;
+  padding: 0;
+}
+
+body > svg {
+  position: absolute;
+  top: 20px;
+  left: 10px;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+h1, h2, h3, p {
+  font-weight: inherit;
+  margin: 0;
+}
+
+h2 {
+  text-align: right;
+  font-size: 24px;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+h3 {
+  color: #ddd;
+  text-align: left;
+  font-size: 18px;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+.bar {
+  width: 1020px;
+  background-color: #555;
+  overflow: auto;
+}
+
+.bar h3, .bar p {
+  padding: 4px 0;
+  float: left;
+  width: 253px;
+  position: relative;
+}
+
+.bar h3 {
+  padding-left: 8px;
+}
+
+.bar p {
+  color: white;
+}

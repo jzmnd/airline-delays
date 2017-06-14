@@ -1,0 +1,22 @@
+#states path {
+  fill: #ddd;
+  stroke: #fff;
+}
+
+path.arc {
+  pointer-events: none;
+  fill: none;
+  stroke: #000;
+  display: none;
+}
+
+path.cell {
+  fill: none;
+  pointer-events: all;
+}
+
+circle {
+  fill: steelblue;
+  fill-opacity: .6;
+  stroke: #fff;
+}
