@@ -4,4 +4,6 @@ A visualization of airline delays from the 2016 Bureau of Transportation Statist
 
 Only U.S. airports with greater than 100,000 emplanements per year are displayed.
 
+View map here: [http://jzmnd.github.io/airline-delays]
+
 Work in progress.
