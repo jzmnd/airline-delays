@@ -25,14 +25,14 @@ var projection = d3.geoAlbersUsa()
     .translate([480, 300]);
 
 // Containers
-var svgContainer = bodySelection.insert("svg", "h2")
+var svgContainer = bodySelection.insert("svg")
     .attr("width", w)
     .attr("height", h);
 
 var titleMain = bodySelection.append("h2")
-    .html("<span>U.S. commercial airports</span><br>Flight Delay Mapper");
+    .html("<span>U.S. Commercial Airports</span><br>Flight Delay Mapper");
 
-var optionBar = bodySelection.insert("div")
+var optionBar = bodySelection.append("div")
     .attr("class", "bar");
 
 var titleAuthor = bodySelection.append("h3")
@@ -77,7 +77,7 @@ d3.csv("airports.csv", function(err, airports) {
         airports[i].highlighted = false;
     });
 
-    // Display all airport locations
+    // Display all airport locations as circles
     circles.selectAll("circle")
         .data(airports)
         .enter()
@@ -95,7 +95,7 @@ d3.csv("airports.csv", function(err, airports) {
             d3.select("h2 span").text(d.Name);
         })
         .on("mouseout", function(d) {
-            d3.select("h2 span").text("U.S. commercial airports");
+            d3.select("h2 span").text("U.S. Commercial Airports");
         })
         .on("click", function(d) {
             if (d.highlighted) {
