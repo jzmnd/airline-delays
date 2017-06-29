@@ -19,6 +19,12 @@ var menu = [{
 
 var bodySelection = d3.select("body");
 
+var colorScalePercent = d3.scaleSequential(d3.interpolateRdYlGn)
+    .domain([24.0, 8.0]);
+
+var colorScaleTime = d3.scaleSequential(d3.interpolateRdYlGn)
+    .domain([1.0, -10.0]);
+
 // Projection and map path
 var path = d3.geoPath();
 var projection = d3.geoAlbersUsa()
@@ -39,6 +45,12 @@ var optionBar = bodySelection.append("div")
 var titleAuthor = bodySelection.append("h3")
     .text("Jeremy Smith 2017");
 
+var scaleBarContainer = bodySelection.append("div")
+    .attr("class", "sb")
+    .append("svg")
+    .attr("width", 400)
+    .attr("height", 70);
+
 // Option bar setup
 var optionBarTitle = optionBar.append("h3")
     .text("Map Options:");
@@ -50,6 +62,21 @@ var optionBarItems = optionBar.selectAll("p")
     .text(function(d) {
         return d.title;
     });
+
+// Scale bar setup
+var colorBar = d3.legendColor()
+    .labelFormat(d3.format(".0f"))
+    .title("% Delayed on arrival by more than 15 min")
+    .ascending(true)
+    .orient("horizontal")
+    .cells(9)
+    .shape("circle")
+    .shapePadding(15)
+    .scale(colorScalePercent);
+
+var scaleBar = scaleBarContainer.append("g")
+    .attr("transform", "translate(0,24)")
+    .call(colorBar);
 
 // States and airport circles
 var states = svgContainer.append("g")
@@ -104,7 +131,9 @@ d3.csv("airports_wdelaydata_ALL.csv", function(err, airports) {
                 d3.select(this).style("fill", "");
             } else {
                 d.highlighted = true;
-                d3.select(this).style("fill", "red");
+                color = colorScalePercent(d.PercentArrDel15);
+                //console.log(d.PercentArrDel15);
+                d3.select(this).style("fill", color);
             }
         });
 });

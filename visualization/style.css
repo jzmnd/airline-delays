@@ -88,3 +88,10 @@ h3 {
 .bar p {
   color: white;
 }
+
+.sb {
+  font-size: 14px;
+  position: absolute;
+  left: 180px;
+  bottom: 0;
+}
