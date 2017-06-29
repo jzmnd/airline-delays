@@ -10,7 +10,8 @@ var menu = [{
     "items": ["Spring", "Summer", "Fall", "Winter"]
     }, {
     "title": "Airline",
-    "items": ["All", "American", "Delta", "Southwest", "United", "Alaska", "JetBlue", "Spirit"]
+    "items": ["All", "American", "Delta", "Southwest", "United", "Alaska", "JetBlue", "Spirit"],
+    "codes": ["ALL", "AA", "DL", "WN", "UA", "AS", "B6", "NK"]
     }, {
     "title": "Display",
     "items": ["Arrival delay", "Taxi in time"]
@@ -68,7 +69,7 @@ d3.json("https://unpkg.com/us-atlas@1/us/10m.json", function(err, us) {
 });
 
 // Load aiport data from csv file
-d3.csv("airports.csv", function(err, airports) {
+d3.csv("airports_wdelaydata_ALL.csv", function(err, airports) {
     if (err) throw err;
 
     // Add correctly projected locations and highlighted bool
