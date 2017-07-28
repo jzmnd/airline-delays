@@ -8,15 +8,6 @@ body {
   position: relative;
 }
 
-a:link, a:visited {
-  color: #777;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #666;
-}
-
 body > ul {
   margin: 0;
   padding: 0;
@@ -28,7 +19,7 @@ body > svg {
   left: 10px;
 }
 
-h1, h2, h3, p {
+h1, h2, h3, p, a {
   font-weight: inherit;
   margin: 0;
 }
@@ -63,11 +54,12 @@ h3.info {
 
 .bar {
   width: 1020px;
+  height: 30px;
   background-color: #555;
-  overflow: auto;
+  overflow: visible;
 }
 
-.bar h3, .bar p {
+.bar h3, .bar p, .bar a {
   padding: 4px 0;
   float: left;
   width: 253px;
@@ -79,8 +71,20 @@ h3.info {
   padding-left: 8px;
 }
 
-.bar p {
+.bar p, .bar a {
   color: white;
+  text-decoration: none;
+}
+
+.bar a:hover {
+  color: #666;
+}
+
+.menuitem a {
+  width: 160px;
+  background-color: #555;
+  padding-left: 10px;
+  z-index: 1;
 }
 
 .sbbot {

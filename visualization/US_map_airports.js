@@ -87,7 +87,32 @@ var optionBarItems = optionBar.selectAll("p")
     .append("p")
     .text(function(d, i) {
         return d.title;
+    })
+    .on("mouseenter", menuMouseOverHandler)
+    .on("mouseleave", menuMouseOutHandler);
+
+function menuMouseOverHandler(d, i) {
+
+    var menuItemContainer = d3.select(this)
+    .append("div")
+    .attr("class", "menuitem");
+
+    var menuItems = menuItemContainer
+    .selectAll("a")
+    .data(d.items)
+    .enter()
+    .append("a")
+    .attr("href", "#")
+    .text(function(d) {
+        return d;
     });
+}
+
+function menuMouseOutHandler(d, i) {
+    d3.select(this)
+    .select("div")
+    .remove();
+}
 
 // Scale bar setup
 var colorBar = d3.legendColor()
