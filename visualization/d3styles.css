@@ -1,10 +1,10 @@
 #states path {
-  fill: #ddd;
-  stroke: #fff;
+  fill: #DDD;
+  stroke: #FFF;
 }
 
 #circles path {
-  stroke: #fff;
+  stroke: #FFF;
 }
 
 path.arc {
@@ -22,7 +22,7 @@ path.cell {
 circle {
   fill: steelblue;
   fill-opacity: 0.65;
-  stroke: #fff;
+  stroke: #FFF;
 }
 
 rect {

@@ -1,11 +1,11 @@
 body {
   font: 300 18px "Helvetica Neue";
-  color: black;
+  color: #000;
   height: 680px;
   width: 1020px;
-  margin: 10px 40px 10px 40px;
   overflow: hidden;
   position: relative;
+  margin: 10px 40px;
 }
 
 body > ul {
@@ -60,11 +60,11 @@ h3.info {
 }
 
 .bar h3, .bar p, .bar a {
-  padding: 4px 0;
   float: left;
   width: 253px;
   position: relative;
   top: 0;
+  padding: 4px 0;
 }
 
 .bar h3 {
@@ -72,7 +72,7 @@ h3.info {
 }
 
 .bar p, .bar a {
-  color: white;
+  color: #FFF;
   text-decoration: none;
 }
 

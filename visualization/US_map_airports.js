@@ -10,7 +10,7 @@ function scalingFunction(n) {
 var w = 1280;
 var h = 800;
 
-var circleRadii = [100000, 5000000, 50000000];
+var circleRadii = [500000, 5000000, 50000000];
 
 var menu = [{
     "title": "Season",
@@ -24,8 +24,8 @@ var menu = [{
     "title": "Display",
     "items": ["Percent delayed", "Arrival delay", "Taxi in time"],
     "descr": ["% Flights delayed on arrival by more than 15 min",
-        "Average delay time on arrival (min)",
-        "Average taxi in time on arrival (min)"]
+            "Average delay time on arrival (min)",
+            "Average taxi in time on arrival (min)"]
     }];
 
 var bodySelection = d3.select("body");
@@ -88,16 +88,15 @@ var optionBarItems = optionBar.selectAll("p")
     .text(function(d, i) {
         return d.title;
     })
-    .on("mouseenter", menuMouseOverHandler)
-    .on("mouseleave", menuMouseOutHandler);
+    .on("mouseenter", menuMouseEnterHandler)
+    .on("mouseleave", menuMouseLeaveHandler);
 
-function menuMouseOverHandler(d, i) {
-
+function menuMouseEnterHandler(d) {
     var menuItemContainer = d3.select(this)
     .append("div")
     .attr("class", "menuitem");
 
-    var menuItems = menuItemContainer
+    menuItemContainer
     .selectAll("a")
     .data(d.items)
     .enter()
@@ -108,7 +107,7 @@ function menuMouseOverHandler(d, i) {
     });
 }
 
-function menuMouseOutHandler(d, i) {
+function menuMouseLeaveHandler() {
     d3.select(this)
     .select("div")
     .remove();
@@ -142,7 +141,7 @@ var scaleCircles = scaleCirclessvgContainer.selectAll("circle")
     });
 
 var scaleTitle = scaleCirclesContainer.append("p")
-    .html("Passengers per year<br>1, 50, 500 hundred thousand");
+    .html("Passengers per year<br>0.5, 5, 50 million");
 
 // States and airport circles
 var states = svgContainer.append("g")
