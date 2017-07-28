@@ -8,18 +8,13 @@ body {
   margin: 10px 40px;
 }
 
-body > ul {
-  margin: 0;
-  padding: 0;
-}
-
 body > svg {
   position: absolute;
   top: 20px;
   left: 10px;
 }
 
-h1, h2, h3, p, a {
+h1, h2, h3, p, ul {
   font-weight: inherit;
   margin: 0;
 }
@@ -45,6 +40,11 @@ h3 {
   position: absolute;
 }
 
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
 h3.info {
   top: auto;
   right: auto;
@@ -59,7 +59,7 @@ h3.info {
   overflow: visible;
 }
 
-.bar h3, .bar p, .bar a {
+.bar h3, .bar p, .bar li {
   float: left;
   width: 253px;
   position: relative;
@@ -71,16 +71,17 @@ h3.info {
   padding-left: 8px;
 }
 
-.bar p, .bar a {
+.bar p, .bar li {
   color: #FFF;
   text-decoration: none;
 }
 
-.bar a:hover {
+.bar li:hover {
   color: #666;
+  cursor: pointer;
 }
 
-.menuitem a {
+.menuitem li {
   width: 160px;
   background-color: #555;
   padding-left: 10px;

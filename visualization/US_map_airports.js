@@ -93,24 +93,25 @@ var optionBarItems = optionBar.selectAll("p")
 
 function menuMouseEnterHandler(d) {
     var menuItemContainer = d3.select(this)
-    .append("div")
+    .append("ul")
     .attr("class", "menuitem");
 
-    menuItemContainer.selectAll("a")
+    menuItemContainer.selectAll("li")
     .data(d.items)
     .enter()
-    .append("a")
-    .attr("href", function(d) {
-        return "#" + d;
-    })
+    .append("li")
     .text(function(d) {
         return d;
+    })
+    .on("click", function(d) {
+        console.log(d);
+        return;
     });
 }
 
 function menuMouseLeaveHandler() {
     d3.select(this)
-    .select("div")
+    .select("ul")
     .remove();
 }
 
