@@ -1,0 +1,151 @@
+,ST,IATA,S/L,Hub,CY15enplane,Name,City,Country,Latitude,Longitude,Altitude,Timezone,PercentArrDel15,TaxiIn,ArrDelay,ArrNum,PercentCancelled,TaxiOut,DepDelay,DepNum
+0,GA,ATL,P,L,49340732,Hartsfield Jackson Atlanta International Airport,Atlanta,United States,33.6366996765,-84.4281005859,1026.0,-5,5.87719867593,7.0,-13.0,61830,0.240921282986,15.0,-2.0,62261
+1,CA,LAX,P,L,36351272,Los Angeles International Airport,Los Angeles,United States,33.94250107,-118.4079971,125.0,-8,15.8772035016,12.0,-6.0,8354,0.0718046912398,18.0,0.0,8356
+2,IL,ORD,P,L,36305668,Chicago O'Hare International Airport,Chicago,United States,41.97859955,-87.90480042,672.0,-6,10.4320337197,9.0,-9.0,1901,0.0,16.0,-3.0,1901
+3,TX,DFW,P,L,31589839,Dallas Fort Worth International Airport,Dallas-Fort Worth,United States,32.8968009949,-97.0380020142,607.0,-6,8.73579545455,9.0,-11.0,1411,0.0,16.0,-3.0,1413
+4,NY,JFK,P,L,27782369,John F Kennedy International Airport,New York,United States,40.63980103,-73.77890015,13.0,-5,12.1943947525,8.0,-11.0,6738,0.266181003082,23.0,-2.0,7138
+5,CO,DEN,P,L,26280043,Denver International Airport,Denver,United States,39.8616981506,-104.672996521,5431.0,-7,9.77184674989,7.0,-10.0,2325,0.0,14.0,-3.0,2327
+6,CA,SFO,P,L,24190560,San Francisco International Airport,San Francisco,United States,37.6189994812,-122.375,13.0,-8,17.9856115108,7.0,-7.0,3060,0.0326904217064,17.5,-2.0,3059
+7,NC,CLT,P,L,21913166,Charlotte Douglas International Airport,Charlotte,United States,35.2140007019,-80.9430999756,748.0,-5,8.22622107969,6.0,-9.0,1557,0.0,19.0,-3.0,1557
+8,NV,LAS,P,L,21857693,McCarran International Airport,Las Vegas,United States,36.08010101,-115.1520004,2181.0,-8,9.42780907204,6.0,-10.0,3375,0.0296208530806,14.0,-2.0,3376
+9,AZ,PHX,P,L,21351504,Phoenix Sky Harbor International Airport,Phoenix,United States,33.434299469,-112.012001038,1135.0,-7,11.2078977933,5.0,-10.0,1724,0.0,16.0,-3.0,1722
+10,FL,MIA,P,L,20986349,Miami International Airport,Miami,United States,25.7931995392,-80.2906036377,8.0,-5,8.37862318841,5.0,-14.0,2234,1.07430617726,16.0,-3.0,2234
+11,TX,IAH,P,L,20595881,George Bush Intercontinental Houston Airport,Houston,United States,29.9843997955,-95.3414001465,97.0,-6,7.29166666667,7.0,-13.0,674,0.0,12.0,-3.0,673
+12,WA,SEA,P,L,20148980,Seattle Tacoma International Airport,Seattle,United States,47.4490013123,-122.308998108,433.0,-8,10.7809110629,7.0,-10.0,4611,0.0,17.0,-1.0,4610
+13,FL,MCO,P,L,18759938,Orlando International Airport,Orlando,United States,28.4293994904,-81.3089981079,96.0,-5,9.72821945644,8.0,-8.0,4008,1.62054350536,14.0,-3.0,4011
+14,NJ,EWR,P,L,18684818,Newark Liberty International Airport,Newark,United States,40.6925010681,-74.1687011719,18.0,-5,19.1642651297,6.0,-6.0,1392,0.0,16.0,-3.0,1392
+15,MN,MSP,P,L,17634273,Minneapolis-St Paul International/Wold-Chamberlain Airport,Minneapolis,United States,44.8819999695,-93.2218017578,841.0,-6,8.7094119881,4.0,-11.0,15851,0.0694093891974,14.0,-2.0,15848
+16,MA,BOS,P,L,16290362,General Edward Lawrence Logan International Airport,Boston,United States,42.36429977,-71.00520325,20.0,-5,17.8787083224,8.0,-7.0,3818,0.0523834468308,19.0,-1.0,3818
+17,MI,DTW,P,L,16255520,Detroit Metropolitan Wayne County Airport,Detroit,United States,42.2123985291,-83.3534011841,645.0,-5,6.58909294827,6.0,-13.0,14293,0.132932204576,16.0,-2.0,14293
+18,PA,PHL,P,L,15101349,Philadelphia International Airport,Philadelphia,United States,39.8718986511,-75.2410964966,36.0,-5,11.3028953229,5.0,-10.0,1796,0.0,15.0,-4.0,1796
+19,NY,LGA,P,L,14319924,La Guardia Airport,New York,United States,40.77719879,-73.87259674,21.0,-5,20.1826804848,7.0,-7.0,5748,0.417536534447,25.0,-2.0,5748
+20,FL,FLL,P,L,13061632,Fort Lauderdale Hollywood International Airport,Fort Lauderdale,United States,26.072599411,-80.1527023315,9.0,-5,7.8073089701,3.0,-12.0,2447,1.38945647732,14.0,-3.0,2447
+21,MD,BWI,P,L,11738845,Baltimore/Washington International Thurgood Marshall Airport,Baltimore,United States,39.17539978,-76.66829681,146.0,-5,5.58375634518,6.0,-10.0,1775,0.0,13.0,-2.0,1774
+22,VA,DCA,P,L,11242375,Ronald Reagan Washington National Airport,Washington,United States,38.8521,-77.037697,15.0,-5,9.45083014049,4.0,-8.0,2356,0.0,16.0,-2.0,2356
+23,IL,MDW,P,L,10830850,Chicago Midway International Airport,Chicago,United States,41.7859992981,-87.7524032593,620.0,-6,6.14692653673,5.0,-10.0,669,0.0,13.0,-3.0,669
+24,UT,SLC,P,L,10634538,Salt Lake City International Airport,Salt Lake City,United States,40.7883987427,-111.977996826,4227.0,-7,7.24666733487,5.0,-10.0,10003,0.0500100020004,16.0,-2.0,9998
+25,VA,IAD,P,L,10363974,Washington Dulles International Airport,Washington,United States,38.94449997,-77.45580292,312.0,-5,6.96022727273,5.0,-10.0,704,0.0,14.0,-3.0,704
+26,CA,SAN,P,L,9985763,San Diego International Airport,San Diego,United States,32.7336006165,-117.190002441,17.0,-8,6.10873549175,3.0,-13.0,1641,0.0,17.0,-2.0,1642
+27,HI,HNL,P,L,9479094,Honolulu International Airport,Honolulu,United States,21.3187007904,-157.92199707,13.0,-10,12.0578778135,4.0,-11.0,623,0.0,20.0,-2.0,624
+28,FL,TPA,P,L,9150458,Tampa International Airport,Tampa,United States,27.9755001068,-82.533203125,26.0,-5,9.00039824771,3.0,-9.0,2512,0.0,12.0,-3.0,2511
+29,OR,PDX,P,L,8340252,Portland International Airport,Portland,United States,45.58869934,-122.5979996,31.0,-8,11.9601328904,4.0,-8.0,1808,0.0,11.0,-2.0,1811
+30,TX,DAL,P,M,7040950,Dallas Love Field,Dallas,United States,32.8470993042,-96.8517990112,487.0,-6,8.19672131148,5.0,-8.0,427,0.0,13.0,-2.0,427
+31,MO,STL,P,M,6239248,Lambert St Louis International Airport,St. Louis,United States,38.7486991882,-90.3700027466,618.0,-6,6.95708712614,4.0,-9.0,1539,0.0,11.0,-4.0,1540
+32,TX,HOU,P,M,5937990,William P Hobby Airport,Houston,United States,29.64539909,-95.27890015,46.0,-6,6.56934306569,3.0,-15.0,549,0.0,12.0,-4.0,550
+33,TX,AUS,P,M,5797562,Austin Bergstrom International Airport,Austin,United States,30.1944999695,-97.6698989868,542.0,-6,7.29072907291,6.0,-10.0,1112,0.0,13.0,-2.0,1113
+34,TN,BNA,P,M,5715205,Nashville International Airport,Nashville,United States,36.1245002747,-86.6781997681,599.0,-6,8.39160839161,5.0,-8.0,1432,0.0,14.0,-3.0,1432
+35,CA,OAK,P,M,5506687,Metropolitan Oakland International Airport,Oakland,United States,37.7212982178,-122.221000671,9.0,-8,9.11949685535,5.0,-5.0,318,0.0,12.0,-3.0,318
+36,LA,MSY,P,M,5329711,Louis Armstrong New Orleans International Airport,New Orleans,United States,29.9934005737,-90.2580032349,4.0,-6,8.77842411423,5.0,-7.0,1892,0.0,13.0,-3.0,1891
+37,MO,MCI,P,M,5135127,Kansas City International Airport,Kansas City,United States,39.2976,-94.713898,1026.0,-6,6.70807453416,6.0,-10.0,1612,0.0620347394541,13.0,-3.0,1612
+38,NC,RDU,P,M,4954735,Raleigh Durham International Airport,Raleigh-durham,United States,35.8776016235,-78.7874984741,435.0,-5,10.2448453608,4.0,-7.0,1555,0.064308681672,15.0,-1.0,1555
+39,CA,SNA,P,M,4945209,John Wayne Airport-Orange County Airport,Santa Ana,United States,33.67570114,-117.8679962,56.0,-8,6.83646112601,6.0,-9.0,748,0.0,13.0,-2.0,748
+40,CA,SJC,P,M,4822480,Norman Y. Mineta San Jose International Airport,San Jose,United States,37.3625984192,-121.929000854,62.0,-8,14.1424272818,3.0,-8.0,997,0.0,15.0,-2.0,997
+41,CA,SMF,P,M,4714729,Sacramento International Airport,Sacramento,United States,38.695400238,-121.591003418,27.0,-8,11.0764430577,7.0,-5.0,641,0.0,14.0,-1.0,641
+42,FL,RSW,P,M,4159215,Southwest Florida International Airport,Fort Myers,United States,26.5361995697,-81.7552032471,30.0,-5,6.4606741573,4.0,-11.0,1069,0.0,11.0,-5.0,1069
+43,TX,SAT,P,M,4091434,San Antonio International Airport,San Antonio,United States,29.533700943,-98.4698028564,809.0,-6,5.41813898704,6.0,-12.0,850,0.0,14.0,-4.0,851
+44,OH,CLE,P,M,3916922,Cleveland Hopkins International Airport,Cleveland,United States,41.4117012024,-81.8498001099,791.0,-5,6.90537084399,6.0,-9.0,782,0.0,12.0,-2.0,782
+45,PA,PIT,P,M,3890681,Pittsburgh International Airport,Pittsburgh,United States,40.49150085,-80.23290253,1203.0,-5,8.21394460363,7.0,-7.0,1047,0.0,14.0,-3.0,1048
+46,IN,IND,P,M,3889567,Indianapolis International Airport,Indianapolis,United States,39.7173,-86.294403,797.0,-5,7.2759538598,5.0,-9.0,1128,0.0,13.0,-3.0,1128
+47,OH,CMH,P,M,3312496,Port Columbus International Airport,Columbus,United States,39.9980010986,-82.8918991089,815.0,-5,7.01357466063,5.0,-7.0,885,0.0,12.5,-2.0,886
+48,WI,MKE,P,M,3229897,General Mitchell International Airport,Milwaukee,United States,42.9472007751,-87.8965988159,723.0,-6,6.07255520505,5.0,-10.0,1269,0.0,12.0,-4.0,1269
+49,HI,OGG,P,M,3220753,Kahului Airport,Kahului,United States,20.8985996246,-156.429992676,54.0,-10,15.1020408163,4.0,-6.0,245,0.0,12.0,-1.0,245
+50,FL,PBI,P,M,3113591,Palm Beach International Airport,West Palm Beach,United States,26.6832008362,-80.0955963135,19.0,-5,8.92116182573,4.0,-12.0,1463,1.09364319891,13.0,-4.0,1463
+51,KY,CVG,P,M,3054991,Cincinnati Northern Kentucky International Airport,Cincinnati,United States,39.0488014221,-84.6678009033,896.0,-5,7.36462093863,5.0,-9.0,1390,0.143988480922,11.0,-2.0,1389
+52,CT,BDL,P,M,2926054,Bradley International Airport,Windsor Locks,United States,41.9388999939,-72.6831970215,173.0,-5,6.93069306931,5.0,-8.0,1214,0.0,12.0,-3.0,1214
+53,FL,JAX,P,M,2716473,Jacksonville International Airport,Jacksonville,United States,30.4941005707,-81.6878967285,30.0,-5,6.10878661088,4.0,-9.0,1216,1.56121610518,13.0,-3.0,1217
+54,AK,ANC,P,M,2525893,Ted Stevens Anchorage International Airport,Anchorage,United States,61.1744003296,-149.996002197,152.0,-9,6.32054176072,4.0,-19.0,443,0.0,13.0,-4.0,445
+55,NY,BUF,P,M,2336431,Buffalo Niagara International Airport,Buffalo,United States,42.94049835,-78.73220062,728.0,-5,8.94308943089,4.0,-9.5,739,0.0,11.0,-2.0,740
+56,NM,ABQ,P,M,2323883,Albuquerque International Sunport Airport,Albuquerque,United States,35.0401992798,-106.60900116,5355.0,-7,7.47663551402,6.0,-12.0,429,0.0,11.0,-2.0,430
+57,CA,ONT,P,M,2089801,Ontario International Airport,Ontario,United States,34.0559997559,-117.600997925,944.0,-8,11.9047619048,4.0,-7.5,84,0.0,13.0,-5.0,84
+58,NE,OMA,P,M,2046179,Eppley Airfield,Omaha,United States,41.3031997681,-95.8940963745,984.0,-6,7.09987966306,4.0,-12.0,831,0.0,13.0,-4.0,832
+59,TN,MEM,P,S,1873716,Memphis International Airport,Memphis,United States,35.0424003601,-89.9766998291,341.0,-6,7.02028081123,4.0,-9.0,1284,0.0,13.0,-3.0,1283
+60,OK,OKC,P,S,1803188,Will Rogers World Airport,Oklahoma City,United States,35.3931007385,-97.6007003784,1295.0,-6,5.50098231827,4.0,-12.0,511,0.0,11.0,-4.0,511
+61,RI,PVD,P,S,1763676,Theodore Francis Green State Airport,Providence,United States,41.7326011658,-71.4204025269,55.0,-5,6.88935281837,4.0,-9.0,479,0.0,13.0,-2.0,479
+62,VA,RIC,P,S,1740391,Richmond International Airport,Richmond,United States,37.5051994324,-77.3197021484,167.0,-5,7.2972972973,5.0,-7.0,744,0.0,14.0,-3.0,744
+63,SC,CHS,P,S,1669988,Charleston Air Force Base-International Airport,Charleston,United States,32.89860153,-80.04049683,46.0,-5,4.85981308411,8.0,-9.0,1096,2.37226277372,13.0,-3.0,1096
+64,NV,RNO,P,S,1669876,Reno Tahoe International Airport,Reno,United States,39.4990997314,-119.767997742,4415.0,-8,8.77192982456,4.0,-6.0,228,0.0,11.0,-3.0,228
+65,KY,SDF,P,S,1640297,Louisville International Standiford Field,Louisville,United States,38.1744,-85.736,501.0,-5,5.83333333333,6.0,-8.0,720,0.0,14.0,-4.0,720
+66,AZ,TUS,P,S,1549253,Tucson International Airport,Tucson,United States,32.1161003113,-110.941001892,2643.0,-7,8.58585858586,4.0,-17.0,198,0.0,13.0,-4.0,198
+67,WA,GEG,P,S,1515351,Spokane International Airport,Spokane,United States,47.6198997498,-117.533996582,2376.0,-8,7.31070496084,4.0,-12.0,383,0.0,12.0,-4.0,383
+68,VA,ORF,P,S,1515200,Norfolk International Airport,Norfolk,United States,36.8945999146,-76.2012023926,26.0,-5,6.67506297229,3.0,-7.0,800,0.5,11.0,-2.0,800
+69,HI,LIH,P,S,1491688,Lihue Airport,Lihue,United States,21.9759998322,-159.339004517,153.0,-10,7.69230769231,5.0,-7.0,91,0.0,12.0,-3.0,91
+70,ID,BOI,P,S,1487777,Boise Air Terminal/Gowen field,Boise,United States,43.56439972,-116.2229996,2871.0,-7,5.52995391705,3.0,-11.0,218,0.45871559633,12.0,-4.0,218
+71,HI,KOA,P,S,1485777,Kona International At Keahole Airport,Kona,United States,19.7388000488,-156.046005249,47.0,-10,10.4895104895,3.0,-8.0,143,0.0,13.0,4.0,143
+72,TX,ELP,P,S,1381392,El Paso International Airport,El Paso,United States,31.80719948,-106.3779984,3959.0,-7,9.16666666667,3.0,-9.0,240,0.0,12.0,-2.0,240
+73,OK,TUL,P,S,1359582,Tulsa International Airport,Tulsa,United States,36.1983985901,-95.8880996704,677.0,-6,4.39189189189,4.0,-11.0,296,0.0,14.0,-3.0,296
+74,AL,BHM,P,S,1325897,Birmingham-Shuttlesworth International Airport,Birmingham,United States,33.56290054,-86.75350189,650.0,-6,6.45161290323,3.0,-7.0,900,0.0,15.0,-3.0,899
+75,MI,GRR,P,S,1280803,Gerald R. Ford International Airport,Grand Rapids,United States,42.88079834,-85.52279663,794.0,-5,6.21266427718,4.0,-10.0,838,0.0,11.0,-5.0,837
+76,NY,ALB,P,S,1276793,Albany International Airport,Albany,United States,42.748298645,-73.8016967773,285.0,-5,6.95443645084,4.0,-8.0,418,0.0,12.0,-4.0,419
+77,CA,LGB,P,S,1220937,Long Beach /Daugherty Field/ Airport,Long Beach,United States,33.81769943,-118.1520004,60.0,-8,6.12244897959,5.0,-9.0,49,0.0,11.5,-2.0,48
+78,NY,ROC,P,S,1177994,Greater Rochester International Airport,Rochester,United States,43.1189002991,-77.6724014282,559.0,-5,7.07070707071,5.0,-9.0,399,0.25,12.0,-4.0,400
+79,IA,DSM,P,S,1156462,Des Moines International Airport,Des Moines,United States,41.5340003967,-93.6631011963,958.0,-6,6.76691729323,3.0,-11.0,266,0.0,11.0,-3.0,266
+80,OH,DAY,P,S,1041759,James M Cox Dayton International Airport,Dayton,United States,39.9024009705,-84.2193984985,1009.0,-5,4.08163265306,5.0,-8.0,345,0.0,13.0,-2.0,345
+81,NH,MHT,P,S,1026349,Manchester Airport,Manchester NH,United States,42.932598114,-71.4356994629,266.0,-5,3.42857142857,5.0,-13.0,175,0.0,15.0,-4.0,175
+82,NY,SYR,P,S,987732,Syracuse Hancock International Airport,Syracuse,United States,43.1111984253,-76.106300354,421.0,-5,7.57946210269,5.0,-9.0,409,0.0,12.0,-3.0,410
+83,GA,SAV,P,S,980531,Savannah Hilton Head International Airport,Savannah,United States,32.12760162,-81.20210266,50.0,-5,6.00667408231,4.0,-9.0,926,3.23974082073,14.0,-3.0,926
+84,AR,LIT,P,S,958510,Bill & Hillary Clinton National Airport/Adams Field,Little Rock,United States,34.7294006348,-92.2242965698,262.0,-6,3.73665480427,4.0,-10.0,562,0.0,12.0,-4.0,562
+85,SC,GSP,P,S,955097,Greenville Spartanburg International Airport,Greenville,United States,34.8956985474,-82.2189025879,964.0,-5,5.38922155689,3.0,-9.0,668,0.0,15.0,-3.0,668
+86,SC,MYR,P,S,899859,Myrtle Beach International Airport,Myrtle Beach,United States,33.6796989441,-78.9282989502,25.0,-5,6.02836879433,4.0,-9.0,287,1.74216027875,13.0,-4.0,287
+87,ME,PWM,P,S,858449,Portland International Jetport Airport,Portland,United States,43.64619827,-70.30930328,76.0,-5,4.74137931034,3.0,-15.0,232,0.0,13.0,-2.0,232
+88,TN,TYS,P,S,848390,McGhee Tyson Airport,Knoxville,United States,35.81100082,-83.9940033,981.0,-5,4.44444444444,3.0,-9.0,405,0.0,14.0,-4.0,405
+89,NC,GSO,P,S,848249,Piedmont Triad International Airport,Greensboro,United States,36.0978012085,-79.9373016357,925.0,-5,5.14285714286,4.0,-9.0,700,0.0,14.0,-3.0,700
+90,WI,MSN,P,S,826640,Dane County Regional Truax Field,Madison,United States,43.1399002075,-89.3375015259,887.0,-6,7.61904761905,4.0,-9.0,840,0.0,12.0,-4.0,839
+91,FL,PNS,P,S,787916,Pensacola Regional Airport,Pensacola,United States,30.473400116,-87.1865997314,121.0,-6,6.23973727422,4.0,-11.0,609,0.0,14.0,-4.0,609
+92,KS,ICT,P,S,773550,Wichita Mid Continent Airport,Wichita,United States,37.6498985291,-97.4330978394,1333.0,-6,5.9925093633,4.0,-12.0,267,0.0,11.0,-3.0,267
+93,OH,CAK,P,S,759335,Akron Canton Regional Airport,Akron,United States,40.9160995483,-81.442199707,1228.0,-5,9.64912280702,4.0,-7.0,342,0.0,12.0,-3.0,342
+94,AR,XNA,P,S,629905,Northwest Arkansas Regional Airport,Bentonville,United States,36.281898,-94.306801,1287.0,-6,5.34759358289,4.0,-12.0,187,0.0,12.0,-3.0,187
+95,FL,SRQ,P,S,607449,Sarasota Bradenton International Airport,Sarasota,United States,27.3953990936,-82.554397583,30.0,-5,7.37051792829,4.0,-8.0,503,0.0,12.0,-3.0,503
+96,KY,LEX,P,S,606980,Blue Grass Airport,Lexington KY,United States,38.0364990234,-84.6059036255,979.0,-5,6.54761904762,4.0,-9.0,336,0.0,13.0,-3.0,335
+97,CO,COS,P,S,593246,City of Colorado Springs Municipal Airport,Colorado Springs,United States,38.8058013916,-104.700996399,6187.0,-7,4.87804878049,6.0,-18.0,82,0.0,15.0,-4.0,82
+98,PA,MDT,P,S,587049,Harrisburg International Airport,Harrisburg,United States,40.1935005188,-76.7633972168,310.0,-5,5.11811023622,5.0,-5.0,254,0.0,12.0,-2.0,254
+99,VT,BTV,P,S,581143,Burlington International Airport,Burlington,United States,44.4719009399,-73.1532974243,335.0,-5,5.71428571429,4.0,-12.0,35,0.0,17.0,-2.0,35
+100,IA,CID,P,S,557383,The Eastern Iowa Airport,Cedar Rapids,United States,41.8847007751,-91.7108001709,869.0,-6,1.61290322581,5.0,-12.5,62,0.0,14.0,-1.0,61
+101,SC,CAE,P,S,533575,Columbia Metropolitan Airport,Columbia,United States,33.9388008118,-81.1194992065,236.0,-5,5.66666666667,4.0,-9.0,300,0.0,13.0,-3.0,301
+102,AL,HSV,P,S,519785,Huntsville International Carl T Jones Field,Huntsville,United States,34.6371994019,-86.775100708,629.0,-6,5.56464811784,4.0,-7.0,611,0.0,14.0,-4.0,611
+103,MT,BZN,P,S,512042,Gallatin Field,Bozeman,United States,45.77750015,-111.1529999,4473.0,-7,10.2564102564,4.0,-9.0,273,0.0,13.0,-3.0,274
+104,MS,JAN,P,S,497042,Jackson-Medgar Wiley Evers International Airport,Jackson,United States,32.3111991882,-90.0758972168,346.0,-6,5.33333333333,4.0,-7.0,603,0.0,14.0,-3.0,603
+105,SD,FSD,P,S,493530,Joe Foss Field Airport,Sioux Falls,United States,43.5820007324,-96.741897583,1429.0,-6,11.214953271,5.0,-11.0,214,0.0,14.0,-4.0,213
+106,AK,FAI,P,S,493443,Fairbanks International Airport,Fairbanks,United States,64.81510162,-147.8560028,439.0,-9,7.69230769231,3.0,-9.0,13,0.0,14.0,-0.5,14
+107,MO,SGF,P,S,447843,Springfield Branson National Airport,Springfield,United States,37.24570084,-93.38860321,1268.0,-6,6.31578947368,4.0,-11.0,96,0.0,14.0,-2.0,96
+108,ND,FAR,P,S,437188,Hector International Airport,Fargo,United States,46.9207000732,-96.8158035278,902.0,-6,11.6788321168,5.0,-6.0,274,0.0,14.0,-4.0,274
+109,FL,ECP,P,S,428704,Northwest Florida Beaches International Airport,Panama City,United States,30.357106,-85.795414,69.0,-6,4.71698113208,3.0,-9.0,531,0.0,14.0,-3.0,531
+110,MT,BIL,P,S,420426,Billings Logan International Airport,Billings,United States,45.8077011108,-108.542999268,3652.0,-7,10.1886792453,4.0,-7.0,266,0.0,11.0,-3.0,266
+111,MI,FNT,P,S,411763,Bishop International Airport,Flint,United States,42.9654006958,-83.743598938,782.0,-5,5.078125,4.0,-9.0,256,0.0,10.0,-4.0,256
+112,TN,CHA,P,N,393680,Lovell Field,Chattanooga,United States,35.0353012085,-85.2037963867,683.0,-5,5.34351145038,4.0,-9.0,262,0.0,14.0,-2.0,261
+113,NC,AVL,P,N,393386,Asheville Regional Airport,Asheville,United States,35.4361991882,-82.5418014526,2165.0,-5,3.93013100437,4.0,-7.0,230,0.0,15.0,-2.0,230
+114,NC,ILM,P,N,388023,Wilmington International Airport,Wilmington,United States,34.2705993652,-77.9026031494,32.0,-5,6.45161290323,4.0,-9.0,94,1.06382978723,12.0,-4.0,94
+115,FL,VPS,P,N,373072,Destin-Ft Walton Beach Airport,Valparaiso,United States,30.4832,-86.525398,87.0,-6,5.90909090909,7.0,-7.0,440,0.0,13.0,-3.0,440
+116,LA,BTR,P,N,366102,"Baton Rouge Metropolitan, Ryan Field",Baton Rouge,United States,30.53319931,-91.14959717,70.0,-6,3.90625,4.0,-9.0,128,0.0,13.5,-2.0,128
+117,FL,EYW,P,N,362108,Key West International Airport,Key West,United States,24.5561008453,-81.7595977783,3.0,-5,5.04201680672,2.0,-7.5,239,0.0,8.0,-3.0,239
+118,MT,MSO,P,N,350172,Missoula International Airport,Missoula,United States,46.91630173,-114.0910034,3206.0,-7,9.75609756098,5.0,-10.0,82,0.0,14.0,-2.0,82
+119,WA,PSC,P,N,348990,Tri Cities Airport,Pasco,United States,46.2647018433,-119.119003296,410.0,-8,9.3023255814,4.0,-10.5,87,0.0,11.0,-1.0,88
+120,FL,TLH,P,N,332777,Tallahassee Regional Airport,Tallahassee,United States,30.3964996338,-84.3503036499,81.0,-5,5.49199084668,4.0,-11.0,437,0.0,12.0,-3.0,437
+121,PA,ABE,P,N,320544,Lehigh Valley International Airport,Allentown,United States,40.6520996094,-75.4408035278,393.0,-5,3.15789473684,4.0,-12.0,95,0.0,12.0,-1.0,95
+122,MS,GPT,P,N,317154,Gulfport Biloxi International Airport,Gulfport,United States,30.4073009491,-89.070098877,28.0,-6,4.69208211144,4.0,-8.0,341,0.0,14.0,-4.0,341
+123,IN,SBN,P,N,315313,South Bend Regional Airport,South Bend,United States,41.7086982727,-86.3172988892,799.0,-5,0.0,4.0,-15.0,16,0.0,11.0,0.0,19
+124,WY,JAC,P,N,313151,Jackson Hole Airport,Jacksn Hole,United States,43.6072998047,-110.737998962,6451.0,-7,6.06060606061,3.0,-8.0,132,0.0,13.0,-4.0,133
+125,FL,DAB,P,N,306360,Daytona Beach International Airport,Daytona Beach,United States,29.179899,-81.058098,34.0,-5,7.26744186047,3.0,-6.0,349,1.43266475645,13.0,-2.0,349
+126,VA,ROA,P,N,300181,Roanoke–Blacksburg Regional Airport,Roanoke VA,United States,37.3255004883,-79.975402832,1175.0,-5,5.44217687075,5.0,-11.0,147,0.0,13.0,-3.0,147
+127,LA,SHV,P,N,295257,Shreveport Regional Airport,Shreveport,United States,32.4466018677,-93.8255996704,258.0,-6,1.26582278481,4.0,-13.0,79,0.0,10.0,-4.0,79
+128,WI,GRB,P,N,295245,Austin Straubel International Airport,Green Bay,United States,44.4850997925,-88.1296005249,695.0,-6,8.75576036866,4.0,-7.0,217,0.0,12.0,-4.0,215
+129,AL,MOB,P,N,278053,Mobile Regional Airport,Mobile,United States,30.6912002563,-88.2427978516,219.0,-6,6.72268907563,4.0,-8.0,119,0.0,12.0,-4.0,119
+130,VA,CHO,P,N,274767,Charlottesville Albemarle Airport,Charlottesville VA,United States,38.1385993958,-78.4529037476,639.0,-5,2.1978021978,4.0,-11.0,91,0.0,11.0,-3.0,91
+131,ME,BGR,P,N,273829,Bangor International Airport,Bangor,United States,44.8073997498,-68.8281021118,192.0,-5,2.63157894737,5.0,-10.0,38,0.0,13.0,-6.0,39
+132,GA,AGS,P,N,271915,Augusta Regional At Bush Field,Bush Field,United States,33.3698997498,-81.9645004272,144.0,-5,7.91666666667,4.0,-9.0,240,0.0,14.0,-3.0,240
+133,SD,RAP,P,N,264183,Rapid City Regional Airport,Rapid City,United States,44.04529953,-103.056999207,3204.0,-7,13.3333333333,4.0,-6.0,90,0.0,11.0,-4.0,90
+134,ND,BIS,P,N,262469,Bismarck Municipal Airport,Bismarck,United States,46.7727012634,-100.746002197,1661.0,-6,10.2409638554,4.0,-7.0,166,0.0,13.0,-3.0,167
+135,WI,ATW,P,N,258321,Appleton International Airport,Appleton,United States,44.2580986023,-88.5190963745,918.0,-6,9.27152317881,4.0,-12.0,151,0.0,12.0,-5.0,152
+136,LA,LFT,P,N,243840,Lafayette Regional Airport,Lafayette,United States,30.20529938,-91.98760223,42.0,-6,6.52173913043,7.0,-11.5,92,0.0,14.0,-2.0,92
+137,MT,FCA,P,N,237501,Glacier Park International Airport,Kalispell,United States,48.3105010986,-114.255996704,2977.0,-7,12.9032258065,4.0,-7.0,31,0.0,12.0,-6.0,31
+138,WV,CRW,P,N,225170,Yeager Airport,Charleston,United States,38.3731002808,-81.5932006836,981.0,-5,3.40909090909,2.0,-8.5,88,0.0,12.5,-3.0,88
+139,FL,MLB,P,N,220393,Melbourne International Airport,Melbourne,United States,28.1028003693,-80.6453018188,33.0,-5,5.84615384615,4.0,-8.0,331,1.80722891566,14.0,-3.0,332
+140,NC,FAY,P,N,220339,Fayetteville Regional Grannis Field,Fayetteville,United States,34.9911994934,-78.8803024292,189.0,-5,3.38983050847,5.0,-12.0,119,0.840336134454,12.5,-1.0,119
+141,PA,AVP,P,N,219796,Wilkes Barre Scranton International Airport,Scranton,United States,41.3385009766,-75.7233963013,962.0,-5,6.66666666667,4.0,-11.0,91,0.0,12.0,-2.0,91
+142,TN,TRI,P,N,216426,Tri Cities Regional Tn Va Airport,BRISTOL,United States,36.4752006531,-82.4074020386,1519.0,-5,4.0404040404,4.0,-8.0,99,0.0,15.0,-3.0,99
+143,FL,GNV,P,N,213225,Gainesville Regional Airport,Gainesville,United States,29.6900997162,-82.2717971802,152.0,-5,7.33944954128,4.0,-6.0,111,1.8018018018,11.0,-2.0,111
+144,MI,TVC,P,N,210231,Cherry Capital Airport,Traverse City,United States,44.7414016724,-85.5821990967,624.0,-5,4.59770114943,4.0,-11.0,87,0.0,11.0,-5.0,88
+145,IN,EVV,P,N,203350,Evansville Regional Airport,Evansville,United States,38.0369987488,-87.5324020386,418.0,-6,4.59770114943,4.0,-9.0,87,0.0,14.0,-3.0,87
+146,VA,PHF,P,N,202104,Newport News Williamsburg International Airport,Newport News,United States,37.13190079,-76.49299622,42.0,-5,9.00900900901,5.0,-11.0,113,0.884955752212,11.5,-2.0,113
+147,IL,BMI,P,N,186633,Central Illinois Regional Airport at Bloomington-Normal,Bloomington,United States,40.47710037,-88.91590118,871.0,-6,6.55737704918,4.0,-11.0,122,0.0,12.0,-3.0,122
+148,NC,OAJ,P,N,148960,Albert J Ellis Airport,Jacksonville NC,United States,34.8292007446,-77.6120986938,94.0,-5,2.89855072464,4.0,-8.0,69,0.0,14.0,-3.0,69
+149,MN,DLH,P,N,131128,Duluth International Airport,Duluth,United States,46.8420982361,-92.1936035156,1428.0,-6,6.06060606061,5.0,-11.0,33,0.0,12.0,-2.0,33

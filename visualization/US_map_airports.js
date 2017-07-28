@@ -96,12 +96,13 @@ function menuMouseEnterHandler(d) {
     .append("div")
     .attr("class", "menuitem");
 
-    menuItemContainer
-    .selectAll("a")
+    menuItemContainer.selectAll("a")
     .data(d.items)
     .enter()
     .append("a")
-    .attr("href", "#")
+    .attr("href", function(d) {
+        return "#" + d;
+    })
     .text(function(d) {
         return d;
     });
@@ -160,8 +161,8 @@ d3.json("https://unpkg.com/us-atlas@1/us/10m.json", function(err, us) {
         .attr("d", path);
 });
 
-// Load aiport and delay data from csv file
-d3.csv("airports_wdelaydata_ALL.csv", function(err, airports) {
+// Load airport and delay data from csv files
+d3.csv("data/airports_wdelaydata_ALL_ALL.csv", function(err, airports) {
     if (err) throw err;
 
     // Add correctly projected locations and highlighted bool
